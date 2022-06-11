@@ -1,0 +1,22 @@
+@use 'utils/text-size';
+
+$sizes: (
+  '14': 0.875rem,
+  '16': 1rem,
+  '32': 2rem,
+  '48': 3rem,
+);
+
+@each $name, $size in $sizes {
+  .text-size-#{$name} {
+    @include text-size.text-size($size);
+  }
+}
+
+.text-light {
+  font-weight: 100;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}

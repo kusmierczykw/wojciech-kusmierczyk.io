@@ -1,0 +1,13 @@
+@forward 'styles/icons/raleway/index';
+@forward 'styles/text';
+
+body,
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
