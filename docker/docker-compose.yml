@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+  gatsby:
+    container_name: gatsby
+    build:
+      context: ./gatsby
+    tty: true
+    ports:
+      - "8000:8000"
+      - "9000:9000"
+    volumes:
+      - ../:/app
+    networks:
+      - wojciech-kusmierczyk.pl
+
+networks:
+  wojciech-kusmierczyk.pl:
+    name: "wojciech-kusmierczyk.pl"
