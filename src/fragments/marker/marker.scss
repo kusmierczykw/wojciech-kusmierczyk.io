@@ -1,0 +1,9 @@
+@use 'src/styles/variables/colors';
+
+$_marker-background-color: colors.$primary;
+
+.marker {
+  background-color: $_marker-background-color;
+  width: 100%;
+  height: 100%;
+}

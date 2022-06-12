@@ -1,22 +1,35 @@
-@use 'utils/text-size';
+@use 'utils/text';
 
-$sizes: (
-  '14': 0.875rem,
-  '16': 1rem,
-  '32': 2rem,
-  '48': 3rem,
-);
-
-@each $name, $size in $sizes {
-  .text-size-#{$name} {
-    @include text-size.text-size($size);
+@mixin text-size-generator(
+  $textSizes: (
+    '14': 0.875rem,
+    '16': 1rem,
+    '24': 1.5rem,
+    '32': 2rem,
+    '36': 2.5rem,
+    '48': 3rem,
+  )
+) {
+  @each $name, $size in $textSizes {
+    .text-size-#{$name} {
+      @include text.text-size($size);
+    }
   }
 }
 
-.text-light {
-  font-weight: 100;
+@mixin letter-spacing-generator(
+  $spacingSizes: (
+    '2': 0.125rem,
+    '4': 0.25rem,
+    '6': 0.375rem,
+  )
+) {
+  @each $name, $size in $spacingSizes {
+    .letter-spacing-#{$name} {
+      @include text.letter-spacing($size);
+    }
+  }
 }
 
-.text-uppercase {
-  text-transform: uppercase;
-}
+@include text-size-generator();
+@include letter-spacing-generator();

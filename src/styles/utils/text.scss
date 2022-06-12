@@ -1,0 +1,7 @@
+@mixin text-size($size) {
+  font-size: $size;
+}
+
+@mixin letter-spacing($size) {
+  letter-spacing: $size;
+}
