@@ -1,7 +1,0 @@
-@use 'src/styles/variables/colors';
-
-$_highlight-color: colors.$primary;
-
-.highlight {
-  color: $_highlight-color;
-}

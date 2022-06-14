@@ -1,5 +1,5 @@
 import React, { PropsWithRef } from 'react';
-import './section-title.scss';
+import './SectionTitle.scss';
 
 export interface SectionTitleProps {
   title: string;

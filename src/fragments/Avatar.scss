@@ -1,0 +1,24 @@
+@use 'src/styles/variables/colors';
+
+$avatar-width: 12rem;
+$avatar-height: 20rem;
+$avatar-background-color: colors.$secondary;
+$avatar-image-size: $avatar-width;
+
+.avatar {
+  height: $avatar-height;
+  width: $avatar-image-size;
+  border-bottom-left-radius: $avatar-image-size;
+  border-bottom-right-radius: $avatar-image-size;
+  background-color: $avatar-background-color;
+  position: relative;
+  margin: auto;
+
+  &__image {
+    width: $avatar-image-size;
+    height: $avatar-image-size;
+    border-radius: $avatar-image-size;
+    position: absolute;
+    bottom: 0;
+  }
+}

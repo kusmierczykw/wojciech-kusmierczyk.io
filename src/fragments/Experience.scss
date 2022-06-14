@@ -1,0 +1,32 @@
+@use 'src/styles/variables/colors';
+
+.experience {
+  padding: 3rem 0;
+
+  &__item {
+    margin-bottom: 5rem;
+  }
+
+  &__company,
+  &__period,
+  &__place {
+    font-size: 0.875rem;
+    line-height: 1.75;
+  }
+
+  &__company {
+    font-weight: bold;
+  }
+
+  &__position {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  &__description {
+    margin-top: 3rem;
+    text-align: justify;
+    padding: 0 0 0 3rem;
+    border-left: 0.25rem solid colors.$secondary;
+  }
+}

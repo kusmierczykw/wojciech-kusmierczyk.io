@@ -1,0 +1,7 @@
+@use 'src/styles/variables/colors';
+
+.horizontal-line {
+  height: 2px;
+  width: 100%;
+  background-color: colors.$secondary;
+}
