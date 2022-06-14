@@ -1,10 +1,16 @@
 @use 'src/styles/variables/colors';
 
+$experience-padding: 3rem 0;
+$experience-item-margin: 5rem;
+$experience-description-margin: 3rem;
+$experience-description-padding: 0 0 0 3rem;
+$experience-description-border: 0.25rem solid colors.$secondary;
+
 .experience {
-  padding: 3rem 0;
+  padding: $experience-padding;
 
   &__item {
-    margin-bottom: 5rem;
+    margin-bottom: $experience-item-margin;
   }
 
   &__company,
@@ -24,9 +30,9 @@
   }
 
   &__description {
-    margin-top: 3rem;
+    margin-top: $experience-description-margin;
+    padding: $experience-description-padding;
+    border-left: $experience-description-border;
     text-align: justify;
-    padding: 0 0 0 3rem;
-    border-left: 0.25rem solid colors.$secondary;
   }
 }

@@ -4,6 +4,7 @@ import Personals from '../fragments/Personals';
 import HorizontalLine from '../fragments/HorizontalLine';
 import SectionTitle from '../fragments/SectionTitle';
 import Experience from '../fragments/Experience';
+import Education from '../fragments/Education';
 
 function IndexPage() {
   return (
@@ -11,6 +12,9 @@ function IndexPage() {
       <div className="row">
         <div className="col-lg-4">
           <Avatar />
+
+          <SectionTitle title="Kontakt_" />
+          <Education />
         </div>
 
         <div className="col-lg-8">
@@ -21,8 +25,6 @@ function IndexPage() {
 
           <SectionTitle title="Skills_" />
           <SectionTitle title="Interests_" />
-          <SectionTitle title="Contact_" />
-          <SectionTitle title="Education_" />
         </div>
       </div>
     </div>

@@ -1,0 +1,28 @@
+@use 'src/styles/variables/colors';
+
+$experience-padding: 3rem 0;
+$experience-item-margin: 2.5rem;
+
+.education {
+  padding: $experience-padding;
+
+  &__item {
+    margin-bottom: $experience-item-margin;
+  }
+
+  &__academy,
+  &__period,
+  &__place {
+    font-size: 0.875rem;
+    line-height: 1.75;
+  }
+
+  &__academy {
+    font-weight: bold;
+  }
+
+  &__degree {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+}

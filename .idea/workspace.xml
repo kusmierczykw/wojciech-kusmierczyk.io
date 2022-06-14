@@ -4,63 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Add information about skills, experience and education.">
-      <change afterPath="$PROJECT_DIR$/docker/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/Avatar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/CompanyAvatar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/CompanyAvatar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/Experience.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/Experience.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/HorizontalLine.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/HorizontalLine.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/Personals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/Personals.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/SectionTitle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/SectionTitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/Montserrat-Italic-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/Montserrat-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/utils/list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stop.sh" afterDir="false" />
+    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Prepare new layout.">
+      <change afterPath="$PROJECT_DIR$/src/fragments/Education.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fragments/Education.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/avatar/avatar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/header/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/header/header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/marker/marker.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/marker/marker.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/notice-about-me/notice-about-me.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/section-title/section-title.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/section-title/section-title.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/separator/separator.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Avatar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Experience.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scaffold/scaffold.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scaffold/scaffold.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/icons/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/icons/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/variables/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables/colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +24,8 @@
       <list>
         <option value="SCSS File" />
         <option value="tsconfig.json" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -146,7 +95,7 @@
       <workItem from="1654979310744" duration="14000" />
       <workItem from="1654979327106" duration="24373000" />
       <workItem from="1655144823835" duration="3397000" />
-      <workItem from="1655223860783" duration="11558000" />
+      <workItem from="1655223860783" duration="12352000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare project configuration on docker.">
       <created>1654978839978</created>
@@ -169,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655060122241</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prepare new layout.">
+      <created>1655236666927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655236666927</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +146,8 @@
     <MESSAGE value="Prepare project configuration on docker." />
     <MESSAGE value="Add custom fonts to project. Define simple styles for texts." />
     <MESSAGE value="Add information about skills, experience and education." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add information about skills, experience and education." />
+    <MESSAGE value="Prepare new layout." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare new layout." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
