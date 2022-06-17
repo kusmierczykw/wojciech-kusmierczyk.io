@@ -1,0 +1,10 @@
+@use 'src/styles/variables/typography';
+@use 'src/styles/variables/spacing';
+
+$agreements-font-size: typography.$font-size-14;
+$agreements-padding: spacing.$size-48 0;
+
+.agreements {
+  font-size: $agreements-font-size;
+  padding: $agreements-padding;
+}

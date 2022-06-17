@@ -1,7 +1,12 @@
 @use 'src/styles/variables/colors';
+@use 'src/styles/variables/spacing';
+
+$horizontal-line-height: 2px;
+$horizontal-line-width: 100%;
+$horizontal-line-background-color: colors.$secondary;
 
 .horizontal-line {
-  height: 2px;
-  width: 100%;
-  background-color: colors.$secondary;
+  height: $horizontal-line-height;
+  width: $horizontal-line-width;
+  background-color: $horizontal-line-background-color;
 }

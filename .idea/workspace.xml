@@ -4,12 +4,90 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Prepare new layout.">
-      <change afterPath="$PROJECT_DIR$/src/fragments/Education.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fragments/Education.tsx" afterDir="false" />
+    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Add education section.">
+      <change afterPath="$PROJECT_DIR$/src/fragments/Contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fragments/ContactIcon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fragments/ContactIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fragments/ContactItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fragments/ContactItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fragments/Icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables/typography.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Avatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Avatar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/CompanyAvatar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/CompanyAvatar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Education.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Education.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Education.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fragments/Experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Experience.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/HorizontalLine.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/HorizontalLine.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Personals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Personals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/icons/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/Montserrat-Italic-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/Montserrat-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/Montserrat-VariableFont_wght.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-Thin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/montserrat/static/Montserrat-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/montserrat/static/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/Raleway-Italic-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Agreements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/Raleway-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Agreements.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Interests.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Interests.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/SidebarContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/SidebarContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Skills.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/Raleway-Italic-VariableFont_wght.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/Raleway-VariableFont_wght.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-Black.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-BlackItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-ExtraBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-ExtraBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-ExtraLight.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/raleway/static/Raleway-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-ExtraLightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-LightItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-Medium.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-MediumItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-SemiBold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-SemiBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-Thin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/fonts/raleway/static/Raleway-ThinItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/icons/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/SourceSansPro-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables/spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/icons/source-sans-pro/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables/colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +100,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -42,24 +120,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/src/fragments",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/src/fragments&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/fragments" />
@@ -95,7 +173,8 @@
       <workItem from="1654979310744" duration="14000" />
       <workItem from="1654979327106" duration="24373000" />
       <workItem from="1655144823835" duration="3397000" />
-      <workItem from="1655223860783" duration="12352000" />
+      <workItem from="1655223860783" duration="13022000" />
+      <workItem from="1655319007596" duration="18864000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare project configuration on docker.">
       <created>1654978839978</created>
@@ -125,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655236666927</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add education section.">
+      <created>1655237434677</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655237434677</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +233,20 @@
     <MESSAGE value="Add custom fonts to project. Define simple styles for texts." />
     <MESSAGE value="Add information about skills, experience and education." />
     <MESSAGE value="Prepare new layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare new layout." />
+    <MESSAGE value="Add education section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add education section." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/fragments/Skills.tsx</url>
+          <line>35</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

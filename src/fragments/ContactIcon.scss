@@ -1,0 +1,16 @@
+@use 'src/styles/variables/colors';
+@use 'src/styles/variables/spacing';
+
+$contact-icon-padding: spacing.$size-12;
+$contact-icon-background-color: colors.$secondary;
+$contact-icon-border-radius: calc(#{$contact-icon-padding} * 2);
+
+.contact-icon {
+  padding: $contact-icon-padding;
+  border-bottom-right-radius: $contact-icon-border-radius;
+  border-bottom-left-radius: $contact-icon-border-radius;
+  background-color: $contact-icon-background-color;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

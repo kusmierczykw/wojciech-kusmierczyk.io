@@ -1,0 +1,7 @@
+@use 'src/styles/variables/colors';
+
+.sidebar-content {
+  background-color: colors.$gray-100;
+  margin-top: -6rem;
+  padding: 8rem 3rem 3rem 3rem;
+}

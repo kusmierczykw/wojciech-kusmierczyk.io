@@ -1,0 +1,30 @@
+@use 'src/styles/variables/colors';
+
+.skills {
+  margin-bottom: 3rem;
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    margin-left: -3rem;
+    padding: 0 3rem;
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: 0.25rem 0;
+
+      $size: 0.75rem;
+
+      &:before {
+        content: '';
+        background-color: colors.$secondary;
+        width: $size;
+        height: $size;
+        border-radius: $size;
+        display: block;
+        margin-right: 1rem;
+      }
+    }
+  }
+}

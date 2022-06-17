@@ -1,7 +1,11 @@
 @use 'src/styles/variables/colors';
+@use 'src/styles/variables/spacing';
+@use 'src/styles/variables/typography';
 
-$experience-padding: 3rem 0;
-$experience-item-margin: 2.5rem;
+$experience-padding: spacing.$size-48 0;
+$experience-item-margin: spacing.$size-40;
+$experience-info-text-size: typography.$font-size-14;
+$experience-degree-margin: spacing.$size-4;
 
 .education {
   padding: $experience-padding;
@@ -10,11 +14,10 @@ $experience-item-margin: 2.5rem;
     margin-bottom: $experience-item-margin;
   }
 
-  &__academy,
+  &__degree,
   &__period,
   &__place {
-    font-size: 0.875rem;
-    line-height: 1.75;
+    font-size: $experience-info-text-size;
   }
 
   &__academy {
@@ -22,7 +25,6 @@ $experience-item-margin: 2.5rem;
   }
 
   &__degree {
-    font-weight: bold;
-    margin-bottom: 0.25rem;
+    margin-bottom: $experience-degree-margin;
   }
 }

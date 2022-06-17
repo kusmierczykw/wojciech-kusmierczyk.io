@@ -1,0 +1,23 @@
+@use 'src/styles/variables/colors';
+@use 'src/styles/variables/spacing';
+@use 'src/styles/variables/typography';
+
+$contact-item-margin: spacing.$size-16;
+$contact-item-font-size: typography.$font-size-14;
+$contact-item-link-color: colors.$black;
+
+.contact {
+  .contact-item {
+    margin-bottom: $contact-item-margin;
+    font-size: $contact-item-font-size;
+
+    a {
+      color: $contact-item-link-color;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -10,22 +10,20 @@ function Education() {
       <div className="education__item">
         <div className="education__info">
           <div className="education__academy">
-            Szkoła Główna Gospodarstwa Wiejskiego
+            Szkoła Główna Gospodarstwa Wiejskiego w Warszawie
           </div>
           <div className="education__degree">Magister, Informatyka</div>
           <div className="education__period">2018 - 2020</div>
-          <div className="education__place">Warszawa, Polska</div>
         </div>
       </div>
 
       <div className="education__item">
         <div className="education__info">
           <div className="education__academy">
-            Uniwersytet Marii Curie-Skłodowskiej
+            Uniwersytet Marii Curie-Skłodowskiej w Lublinie
           </div>
           <div className="education__degree">Licencjat, Informatyka</div>
           <div className="education__period">2015 - 2018</div>
-          <div className="education__place">Lublin, Polska</div>
         </div>
       </div>
     </div>

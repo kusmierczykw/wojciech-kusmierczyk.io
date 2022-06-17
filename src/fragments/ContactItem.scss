@@ -1,0 +1,12 @@
+@use 'src/styles/variables/spacing';
+
+$contact-item-content-margin: spacing.$size-16;
+
+.contact-item {
+  display: flex;
+  align-items: center;
+
+  &__content {
+    margin-left: $contact-item-content-margin;
+  }
+}

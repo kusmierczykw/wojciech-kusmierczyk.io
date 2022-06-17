@@ -1,9 +1,11 @@
 @use 'src/styles/variables/colors';
+@use 'src/styles/variables/spacing';
 
-$avatar-width: 12rem;
-$avatar-height: 20rem;
+$avatar-width: 16rem;
+$avatar-height: 22rem;
 $avatar-background-color: colors.$secondary;
 $avatar-image-size: $avatar-width;
+$avatar-border: spacing.$size-48 solid colors.$white;
 
 .avatar {
   height: $avatar-height;
@@ -11,6 +13,9 @@ $avatar-image-size: $avatar-width;
   border-bottom-left-radius: $avatar-image-size;
   border-bottom-right-radius: $avatar-image-size;
   background-color: $avatar-background-color;
+  border: $avatar-border;
+  border-top: 0;
+  box-sizing: content-box;
   position: relative;
   margin: auto;
 

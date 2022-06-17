@@ -11,7 +11,12 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        useResolveUrlLoader: true,
+      },
+    },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
