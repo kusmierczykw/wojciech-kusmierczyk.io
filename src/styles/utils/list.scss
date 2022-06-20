@@ -1,5 +1,35 @@
+@use 'src/styles/variables/colors';
+@use 'src/styles/variables/spacing';
+
 @mixin reset() {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+@mixin unordered-list($dot-background-color: colors.$secondary) {
+  $list-margin: spacing.$size-48;
+  $list-item-padding: spacing.$size-4 0;
+  $dot-margin: spacing.$size-16;
+  $dot-size: spacing.$size-12;
+
+  margin-left: -$list-margin;
+  padding: 0 $list-margin;
+
+  li {
+    display: flex;
+    align-items: center;
+    padding: $list-item-padding;
+    flex: 0 0 $dot-size;
+
+    &:before {
+      content: '';
+      background-color: $dot-background-color;
+      width: $dot-size;
+      height: $dot-size;
+      border-radius: $dot-size;
+      margin-right: $dot-margin;
+      display: block;
+    }
+  }
 }

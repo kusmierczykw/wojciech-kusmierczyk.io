@@ -1,2 +1,12 @@
+@use 'src/styles/variables/spacing';
+@use 'src/styles/utils/list';
+
+$skills-margin: spacing.$size-48;
+
 .interests {
+  margin-bottom: $skills-margin;
+
+  &__list {
+    @include list.unordered-list;
+  }
 }
