@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Add skills section. Add typography with variables.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Add interests section.">
       <change beforePath="$PROJECT_DIR$/gatsby-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/Interests.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Interests.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/Interests.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Interests.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/Skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Skills.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/utils/list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/utils/list.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,7 @@
       <workItem from="1655144823835" duration="3397000" />
       <workItem from="1655223860783" duration="13022000" />
       <workItem from="1655319007596" duration="18936000" />
-      <workItem from="1655749116037" duration="3364000" />
+      <workItem from="1655749116037" duration="4054000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare project configuration on docker.">
       <created>1654978839978</created>
@@ -145,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655436265851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add interests section.">
+      <created>1655752561401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655752561401</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +168,8 @@
     <MESSAGE value="Prepare new layout." />
     <MESSAGE value="Add education section." />
     <MESSAGE value="Add skills section. Add typography with variables." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add skills section. Add typography with variables." />
+    <MESSAGE value="Add interests section." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add interests section." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

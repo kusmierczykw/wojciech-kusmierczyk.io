@@ -20,7 +20,7 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'G-58FRR88K6E',
+        trackingId: 'UA-121938105-1',
       },
     },
     'gatsby-plugin-image',
