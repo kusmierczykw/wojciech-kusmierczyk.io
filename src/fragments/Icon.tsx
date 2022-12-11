@@ -6,7 +6,8 @@ export type IconDefinition =
   | 'bi bi-telephone-fill'
   | 'bi bi-geo-alt-fill'
   | 'bi bi-envelope-fill'
-  | 'bi bi-globe';
+  | 'bi bi-globe'
+  | 'bi bi-linkedin';
 
 export interface IconProps {
   icon: IconDefinition;

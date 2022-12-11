@@ -5,19 +5,20 @@ import SectionTitle from './SectionTitle';
 function Interests() {
   return (
     <div className="interests">
-      <SectionTitle title="Interests_" />
+      <SectionTitle title="Zainteresowania" />
 
       <div className="row">
         <div className="col-lg">
           <ul className="interests__list">
+            <li>Kolarstwo</li>
             <li>Muzyka</li>
             <li>Gry</li>
-            <li>Grafika komputerowa</li>
           </ul>
         </div>
 
         <div className="col-lg">
           <ul className="interests__list">
+            <li>Grafika komputerowa</li>
             <li>UX / UI</li>
             <li>CQRS / DDD</li>
           </ul>

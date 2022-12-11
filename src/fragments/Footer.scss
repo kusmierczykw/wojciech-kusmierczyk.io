@@ -1,0 +1,11 @@
+@use 'src/styles/variables/typography';
+@use 'src/styles/variables/spacing';
+
+$footer-font-size: typography.$font-size-14;
+$footer-padding: spacing.$size-48 0 spacing.$size-32;
+
+.footer {
+  font-size: $footer-font-size;
+  padding: $footer-padding;
+  text-align: center;
+}

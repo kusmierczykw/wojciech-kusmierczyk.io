@@ -5,6 +5,9 @@ $first-name-line-height: 1;
 $last-name-font-size: 3rem;
 $position-font-size: 1.25rem;
 
+$first-name-font-size-mobile: 2rem;
+$last-name-font-size-mobile: 3rem;
+
 .personals {
   padding: $personals-padding;
   letter-spacing: $personals-letter-spacing;
@@ -12,6 +15,18 @@ $position-font-size: 1.25rem;
   &__first-name,
   &__last-name {
     text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 768px) {
+    .personals {
+      &__first-name {
+        font-size: $first-name-font-size-mobile;
+      }
+
+      &__last-name {
+        font-size: $last-name-font-size-mobile;
+      }
+    }
   }
 
   &__first-name {

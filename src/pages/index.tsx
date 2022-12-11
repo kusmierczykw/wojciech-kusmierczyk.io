@@ -7,6 +7,7 @@ import SidebarContent from '../fragments/SidebarContent';
 import Agreements from '../fragments/Agreements';
 import Skills from '../fragments/Skills';
 import Interests from '../fragments/Interests';
+import Footer from '../fragments/Footer';
 
 function IndexPage() {
   return (
@@ -25,10 +26,9 @@ function IndexPage() {
           <Experience />
           <Skills />
           <Interests />
-
           <HorizontalLine />
-
           <Agreements />
+          <Footer />
         </div>
       </div>
     </div>

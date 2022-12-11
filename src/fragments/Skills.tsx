@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle';
 function Skills() {
   return (
     <div className="skills">
-      <SectionTitle title="Skills_" />
+      <SectionTitle title="Umiejętności_" />
 
       <div className="row">
         <div className="col-lg">

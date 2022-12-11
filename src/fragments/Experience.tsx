@@ -17,18 +17,18 @@ function Experience() {
 
         <div className="experience__description">
           Tworzenie warstwy frontendowej aplikacji webowych - Angular, PrimeNG,
-          NGBootstrap, Angular Material. Tworzenie aplikacji mobilnych dla
-          systemów Android oraz iOS przy zastosowaniu Ionic, Flutter & Dart.
-          Konfiguracja środowiska developerskiego - wybór stacku
-          technologicznego, ESLint, Docker. Używanie narzędzi do statycznej
-          analizy kodu aplikacji. Przygotowywanie dedykowanych i reużywalnych
-          komponentów aplikacji. Stosowanie bibliotek komponentów - PrimeNG,
-          Angular Material, Bootstrap. Stosowanie dobrych praktyk pisania kodu
-          oraz projektowania aplikacji - czysty kod, czysta architektura, Atomic
-          Design. Praca w zespole stosującym techniki zwinnego wytwarzania
-          oprogramowania (SCRUM). Estymacja projektów informatycznych i
-          planowanie prac programistycznych. Weryfikacja kodu źródłowego
-          aplikacji. Przygotowanie, weryfikacja oraz ocena zadań rekrutacyjnych.
+          NGBootstrap, Angular Material. Konfiguracja środowiska developerskiego
+          - wybór stacku technologicznego, ESLint, Docker. Używanie narzędzi do
+          statycznej analizy kodu aplikacji. Przygotowywanie dedykowanych i
+          reużywalnych komponentów aplikacji. Stosowanie bibliotek komponentów -
+          PrimeNG, Angular Material, Bootstrap. Stosowanie dobrych praktyk
+          pisania kodu oraz projektowania aplikacji - czysty kod, czysta
+          architektura, Atomic Design. Praca w zespole stosującym techniki
+          zwinnego wytwarzania oprogramowania (SCRUM). Estymacja projektów
+          informatycznych i planowanie prac programistycznych. Weryfikacja kodu
+          źródłowego aplikacji. Przygotowanie, weryfikacja oraz ocena zadań
+          rekrutacyjnych. Prowadzenie rozmów technicznych z potencjalnymi
+          kandydatami.
         </div>
       </div>
 

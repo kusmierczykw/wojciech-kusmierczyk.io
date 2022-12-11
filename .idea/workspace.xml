@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Add interests section.">
-      <change beforePath="$PROJECT_DIR$/gatsby-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.ts" afterDir="false" />
+    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Change of tracking id.">
+      <change afterPath="$PROJECT_DIR$/src/fragments/Footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fragments/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Experience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Interests.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Interests.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Personals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Personals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fragments/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +28,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -38,24 +47,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/src/fragments&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/src/fragments",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/kusmierczykw/Documents/Projekty/wojciech-kusmierczyk.io/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/fragments" />
@@ -93,7 +103,9 @@
       <workItem from="1655144823835" duration="3397000" />
       <workItem from="1655223860783" duration="13022000" />
       <workItem from="1655319007596" duration="18936000" />
-      <workItem from="1655749116037" duration="4054000" />
+      <workItem from="1655749116037" duration="4679000" />
+      <workItem from="1655929534875" duration="1000" />
+      <workItem from="1670785690416" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare project configuration on docker.">
       <created>1654978839978</created>
@@ -144,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655752561401</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Change of tracking id.">
+      <created>1655753382047</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655753382047</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +188,8 @@
     <MESSAGE value="Add education section." />
     <MESSAGE value="Add skills section. Add typography with variables." />
     <MESSAGE value="Add interests section." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add interests section." />
+    <MESSAGE value="Change of tracking id." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change of tracking id." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
