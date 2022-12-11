@@ -35,7 +35,9 @@ function Experience() {
       <div className="experience__item">
         <div className="experience__info">
           <div className="experience__company">Ministerstwo Finansów</div>
-          <div className="experience__position">Programista Angular</div>
+          <div className="experience__position">
+            Programista Angular / Team Leader
+          </div>
           <div className="experience__period">Czerwiec 2021 - obecnie</div>
           <div className="experience__place">Lublin, Polska</div>
         </div>
