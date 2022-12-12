@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Changes of translations. Hide phone number and email address. Add linkedin link.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/gatsby/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/gatsby/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fragments/Experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/fragments/Experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/libs/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/libs/bootstrap.scss" afterDir="false" />
-    </list>
+    <list default="true" id="c4a62476-ac49-44a5-a03d-e06887a59374" name="Changes" comment="Update of dependencies." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +94,7 @@
       <workItem from="1655319007596" duration="18936000" />
       <workItem from="1655749116037" duration="4679000" />
       <workItem from="1655929534875" duration="1000" />
-      <workItem from="1670785690416" duration="4501000" />
+      <workItem from="1670785690416" duration="4997000" />
     </task>
     <task id="LOCAL-00001" summary="Prepare project configuration on docker.">
       <created>1654978839978</created>
@@ -167,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670787424302</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update of dependencies.">
+      <created>1670791149633</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670791149633</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +193,8 @@
     <MESSAGE value="Add interests section." />
     <MESSAGE value="Change of tracking id." />
     <MESSAGE value="Changes of translations. Hide phone number and email address. Add linkedin link." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes of translations. Hide phone number and email address. Add linkedin link." />
+    <MESSAGE value="Update of dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update of dependencies." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

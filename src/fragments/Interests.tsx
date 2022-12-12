@@ -5,7 +5,7 @@ import SectionTitle from './SectionTitle';
 function Interests() {
   return (
     <div className="interests">
-      <SectionTitle title="Zainteresowania" />
+      <SectionTitle title="Zainteresowania_" />
 
       <div className="row">
         <div className="col-lg">
